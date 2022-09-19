@@ -1,8 +1,13 @@
+import GlassStore from "./GlassStore/GlassStore";
 import ThucHanhLayout from "./ThucHanhLayout/ThucHanhLayout";
 
 function App() {
   return (
-    <ThucHanhLayout/>
+    <div>
+      <ThucHanhLayout/>
+    <GlassStore/>
+    </div>
+    
   );
 }
 
